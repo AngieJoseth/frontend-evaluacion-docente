@@ -57,6 +57,11 @@ export const routes: Routes = [
                 loadChildren: () => import('./pages/web/web.module').then(m => m.WebModule),
                 // canActivate: [AuthGuard]
             },
+            {
+                path: 'teacher-eval',
+                loadChildren: () => import('./pages/teacher-eval/teacher-eval.module').then(m => m.TeacherEvalModule),
+                // canActivate: [AuthGuard]
+            },
         ]
     },
     {

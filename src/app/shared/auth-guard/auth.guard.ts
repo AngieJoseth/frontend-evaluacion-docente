@@ -22,7 +22,8 @@ export class AuthGuard implements CanActivate {
     }
 
     canActivate(next: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
-        this.user = JSON.parse(localStorage.getItem('user')) as User;
+        return true;
+        /*this.user = JSON.parse(localStorage.getItem('user')) as User;
         this.role = JSON.parse(localStorage.getItem('role')) as Role;
         if (this.user && this.role) {
             if (localStorage.getItem('isLoggedin') === 'true') {
@@ -56,6 +57,6 @@ export class AuthGuard implements CanActivate {
             }
         } else {
             this.routes.navigate(['/authentication/login']);
-        }
+        }*/
     }
 }
