@@ -5,4 +5,6 @@ export const environment = {
     API_URL_ATTENDANCE: 'http://www.asistencia.yavirac.edu.ec/public/api/attendance/',
     API_URL_JOB_BOARD: 'http://www.bolsa-empleo.yavirac.edu.ec/public/api/job_board/',
     API_URL_WEB: 'http://www.web.yavirac.edu.ec/public/api/web/',
+    API_URL_TEACHER_EVAL: 'http://www.asistencia.yavirac.edu.ec/public/api/teacher_eval/',
+
 };

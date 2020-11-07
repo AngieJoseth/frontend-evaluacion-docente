@@ -6,12 +6,15 @@ import { EvaluationTypeComponent } from './evaluation-type/evaluation-type.compo
 import { QuestionComponent } from './question/question.component';
 import { AnswerComponent } from './answer/answer.component';
 
+import {MessageModule} from 'primeng/message';
 
 @NgModule({
   declarations: [EvaluationTypeComponent, QuestionComponent, AnswerComponent],
   imports: [
     CommonModule,
-    TeacherEvalRoutingModule
+    TeacherEvalRoutingModule,
+    MessageModule,
+
   ]
 })
 export class TeacherEvalModule { }
