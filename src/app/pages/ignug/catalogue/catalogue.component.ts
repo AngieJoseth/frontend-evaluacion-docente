@@ -62,7 +62,6 @@ export class CatalogueComponent implements OnInit {
 
         this.getCatalogues();
         this.setColsCatalogue();
-
     }
 
     setColsCatalogue() {
