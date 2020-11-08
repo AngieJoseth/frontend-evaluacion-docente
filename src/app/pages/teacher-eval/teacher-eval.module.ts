@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { TeacherEvalRoutingModule } from './teacher-eval-routing.module';
 import { EvaluationTypeComponent } from './evaluation-type/evaluation-type.component';
+import { EvaluationComponent } from './evaluation/evaluation.component';
 import { QuestionComponent } from './question/question.component';
 import { AnswerComponent } from './answer/answer.component';
 
@@ -25,9 +26,8 @@ import {ConfirmationService, MessageService} from 'primeng/api';
 import {TooltipModule} from 'primeng/tooltip';
 import {TabViewModule} from 'primeng/tabview';
 
-
 @NgModule({
-  declarations: [EvaluationTypeComponent, QuestionComponent, AnswerComponent],
+  declarations: [EvaluationTypeComponent, QuestionComponent, AnswerComponent, EvaluationComponent],
   imports: [
     CommonModule,
     TeacherEvalRoutingModule,
