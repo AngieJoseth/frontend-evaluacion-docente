@@ -1,1 +1,1 @@
-export { EvaluationType} from './evaluationType';
+export { EvaluationType} from './evaluation-type';
